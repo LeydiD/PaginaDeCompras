@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.header-left h1 {
+    margin: 0;
+}
+
+.header-left p {
+    margin: 0;
+    font-size: 12px;
+    color: #888;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right p {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.header-right a {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.header-right img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.order-info {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.order-info label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.order-info input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+thead {
+    background-color: #f0f0f0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
